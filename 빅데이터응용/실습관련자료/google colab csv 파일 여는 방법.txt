@@ -1,0 +1,4 @@
+import numpy as np
+from google.colab import drive
+drive.mount('/content/gdrive')
+!cat '/content/gdrive/My Drive/MyFile/census.csv'
